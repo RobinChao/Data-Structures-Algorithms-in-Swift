@@ -1,0 +1,25 @@
+//: [Previous](@previous)
+
+import Foundation
+
+example(of: "repeated insertions in sequence") {
+    var tree = AVLTree<Int>()
+    for i in 0 ..< 15 {
+        tree.insert(i)
+    }
+    print(tree)
+}
+
+example(of: "removing a vaue") {
+    var tree = AVLTree<Int>()
+    tree.insert(15)
+    tree.insert(10)
+    tree.insert(16)
+    tree.insert(18)
+    print(tree)
+    
+    tree.remove(10)
+    print(tree)
+}
+
+//: [Next](@next)

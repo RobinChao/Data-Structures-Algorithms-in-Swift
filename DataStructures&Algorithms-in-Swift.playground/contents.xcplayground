@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='LinkedList'/>
+        <page name='Stack'/>
+        <page name='Queue'/>
+        <page name='Tree'/>
+        <page name='BinaryTree'/>
+        <page name='AVLTree'/>
+        <page name='Tries'/>
+        <page name='BinarySearch'/>
+        <page name='Heap'/>
+        <page name='PriorityQueue'/>
+        <page name='n^2 Sorting'/>
+        <page name='MergeSort'/>
+        <page name='RadixSort'/>
+    </pages>
+</playground>
